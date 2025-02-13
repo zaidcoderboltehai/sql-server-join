@@ -1,4 +1,4 @@
-/*
+
 create database sqljoin
 
 use sqljoin
@@ -68,7 +68,7 @@ SELECT Students.student_id, Students.name, Students.class,
        Marks.mark_id, Marks.subject, Marks.marks
 FROM Students  
 CROSS JOIN Marks;
-*/
+
 
 CREATE DATABASE EmployeeDB;
 
