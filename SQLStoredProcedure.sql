@@ -1,4 +1,5 @@
-create database stored_procedure
+
+-create database stored_procedure
 use stored_procedure
 
 CREATE TABLE Customers (
@@ -35,7 +36,7 @@ END;
 EXEC GetAllCustomers;
 
 ----Stored Procedure to Insert a New Customer
-CREATE PROCEDURE InsertCustomer
+CREATE PROCEDURE InsertCustomer 
     @CustomerID INT,
     @CustomerName VARCHAR(50),
     @City VARCHAR(50)
